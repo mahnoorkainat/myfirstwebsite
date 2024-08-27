@@ -1,0 +1,77 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #fff;
+    color: black;
+}
+
+.mahnoor {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.header-main .kainat img {
+    width: 80px;
+    margin-top: 20px;
+}
+
+.header-main .navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-main .navbar-nav ul{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 60px;
+    list-style: none;
+    text-transform: uppercase;
+    color: black;
+}
+.header-main .navbar-nav ul a{
+    text-decoration: none;
+    color: black;
+}
+.header-main .navbar-nav .mahaaa{
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+ .umaima{
+    margin: 40px;
+}
+.home-banner .umaima{
+    margin: 100px;
+    margin-left: 0%;
+    margin-bottom: 30px;
+}
+.home-banner .umaimaa p{
+    margin: 30px;
+    margin-left: 0%;
+}
+.home-banner .btn-parent{
+    display: flex;
+    margin: 60px;
+    margin-left: 0%;
+    gap: 120Px;
+}    
+.home-banner .umaima h1{
+    margin-bottom: 30px;
+    margin-top: auto
+}   
+.home-banner .sabir{
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+}
+.home-banner .mahaa{
+    margin-top: 10px;
+}
+.home-banner .content-wrapper{
+    display: flex;
+    gap: 30px;
+}

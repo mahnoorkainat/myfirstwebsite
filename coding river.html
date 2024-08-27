@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+                font-family: poppins;
+                text-align: center;
+        }
+        .wrapper{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .header{
+            width: 100%;
+            height: 100px;
+            background: #c0392b;
+            position: fixed;
+        }
+        .logo{
+            width: 90%;
+            float: left;
+            text-align: left;
+            line-height: 100px;
+        }
+        .logo a{
+            text-decoration: none;
+            font-size: 30px;
+            font-family: 'pacifico';
+            color: #fff;
+            letter-spacing: 4px;
+            
+        }
+        nav{
+            float: right ;
+            line-height: 100px;
+        }
+        nav a{
+            text-decoration: none;
+            font-family: 'poppins';
+            letter-spacing: 4px;
+            font-size: 20px;
+            padding: 36px 10px;
+            margin: 0% 1px;
+        }
+        nav a:hover{
+            background: #fff;
+            color: #130f40;
+        }
+        .banner-area{
+            background-image: url(images/banner-bg2.jpg);
+            background-size: cover;
+            background-position: center center;
+            top: 100px;
+            height: 100vh;
+            width: 100%;
+            /* position: fixed; */
+        }
+        .banner-area::after{
+            content: '' ;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            display: block;
+            width: 100%;
+            height: 100%;
+            background: #130f40;
+            opacity: .7;
+            z-index: -1;
+        }
+        .banner-area h2{
+            padding-top: 8%;
+            font-size: 88%;
+            color: #fff;
+
+        }
+        .content-area{
+            width: 100%;
+            height: 800%;
+            position: relative;
+            background: #fff;
+            top: 550px;
+        }
+        .content-area h2{
+            font-size: 40px;
+            margin: 0%;
+            padding-top: 30px;
+            letter-spacing: 4px;
+        }
+        .content-area p{
+            padding: 2% 0;
+            line-height: 30px;
+            text-align: justify;
+        }
+    </style>
+
+    <!--style-->
+    <link rel="stylesheed" href="style.css">
+</head>
+<body>
+    <div class="box-area">
+        <header>
+            <div class="wrapper">
+                <div class="logo">
+                    <a href="#">Coding River</a>
+                </div>
+
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">Services</a>
+                    <a href="#">Feature</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="banner-area">
+             <h2>Fixed banner</h2>
+        </div>
+ 
+    <div class="contact area">
+        <div class="wrapper">
+            <h2>Text details</h2>
+            <p>
+          
+
+                "Designing a captivating driver banner website requires a harmonious blend of coding expertise and creative flair, combining technical proficiency with innovative design thinking to craft a digital masterpiece that showcases the thrill and excitement of motorsports. By leveraging the trifecta of web development - HTML, CSS, and JavaScript - developers can build a robust and scalable platform that seamlessly integrates driver profiles, schedules, statistics, and real-time updates, ensuring a rich and immersive experience for racing enthusiasts. With intuitive navigation and responsive design, the website adapts effortlessly to various devices and screen sizes, providing an optimized viewing experience that fosters engagement and encourages exploration. Moreover, incorporating dynamic features like live streaming, interactive elements, and social media integration can further elevate the website's engagement quotient, making it a go-to destination for fans and drivers alike. By harnessing the power of cutting-edge coding techniques, such as HTML5, CSS3, and JavaScript frameworks like React or Angular, and creative vision, the driver banner website can become a true showstopper, setting a new standard for digital excellence in the world of motorsports and leaving a lasting impression on visitors. Whether it's showcasing driver achievements, providing real-time race updates, or offering exclusive behind-the-scenes content, the website can become an indispensable resource for anyone passionate about racing, and a testament to the power of innovative web design and development."v
+            </p>
+    </div>
+
+
+
+</body>
+</html>

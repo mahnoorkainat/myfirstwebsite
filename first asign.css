@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #dbd3d3;
+    color: #000;
+}
+.header-main .mahaaa h1a{
+    display: flex;
+    font-size: 40px;
+    color: #2b595df9;
+    margin-left: 270px;
+    margin-top: 40px;
+}
+.header-main .mahaaa h2a{
+    display: flex;
+    font-size: 25px;
+    color: #2b595df9;
+    margin-left: 270px;
+}
+.header-main .kainat ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    list-style: disc;
+    margin-top: 20px;
+    margin-right: 200px;
+    color: #2b595df9;
+}
+.header-main .kainat ul li a{
+    text-decoration: underline;
+    text-transform: inherit;
+    color: #2b595df9;
+}
+.home-banner .misbah p{
+    margin-left: 260px;
+    margin-top: 30px;
+    margin-right: 200px;
+    color: #2b595df9;
+}
+.home-banner .hasnain h1{
+    margin-left: 265px;
+    margin-top: 20px;
+    font-size: 25px;
+    color: #2b595df9;
+}
+.home-banner .hasnain h2{
+    margin-left: 285px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #2b595df9;
+}
+.home-banner .hasnain p{
+    margin-left: 290px;
+    margin-right: 400px;
+    margin-top: 20px;
+    color: #2b595df9;
+}
+.home-banner .hasnain h3{
+    margin-left: 265px;
+    margin-top: 20px;
+    font-size: 25px;
+    color: #2b595df9;
+}
+.home-banner .hasnain h4{
+    margin-left: 285px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #2b595df9;
+}
+.home-banner .hasnain h5{
+    margin-left: 285px;
+    margin-top: 10px;
+    font-size: 20px;
+    list-style: disc;
+    color: #2b595df9;
+}
+

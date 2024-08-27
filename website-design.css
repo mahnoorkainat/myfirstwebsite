@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* 
+justify-content: flex-start;
+justify-content: center;
+justify-content: flex-end;
+justify-content: space-between;
+justify-content: space-around;
+justify-content: space-evenly;
+*/
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+.mahnoor{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-btn{
+    background-color: #1ad079;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    display: block;
+    width: fit-content;
+}
+
+/* Header Css Start */
+.header-main {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.header-main .navbar-brand img{
+    width: 150px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.header-main .navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-main .navbar-nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+.header-main .navbar-nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+/* Header Css End */
+
+/* home banner start */
+.home-banner{
+    margin-top: 50px;
+}
+.home-banner .banner-h2{
+    font-family: "Lato", sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+}
+.home-banner .flex-box{
+    display: flex;
+}
+.home-banner .flex-box .flex-item{
+    flex: 1;
+}
+.home-banner .flex-box .flex-item img{
+    width: 100%;
+}
+.home-banner .flex-box .item-first{
+    padding-top: 50px;
+}
+.home-banner .flex-box .item-first p{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.home-banner .flex-box .item-third{
+    padding-top: 100px;
+}
+.home-banner .flex-box .item-third ul li{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+/* home banner end */

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: #fff;
+}
+/* header css start */
+.header-main{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.header-main .kainat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-main .kainat ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+.mahnoor{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-main .kainat ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+.header-main .mahaa{
+    color: #5022b8;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+/* header css end */
+/* home banner start */
+.home-banner{
+    margin-top: 30px;
+}
+.home-banner .duaa h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #5022b8;
+    
+}
+.home-banner .umaima{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.home-banner .duaa h2{
+    margin-bottom: 20px;
+    font-size: px;
+    font-family: "Poppins", sans-serif;;
+}
+.home-banner .duaa p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #adadad;
+
+}
+.home-banner .kashaf img{
+    width: 300px;
+}
